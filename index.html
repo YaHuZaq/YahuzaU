@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+    rel="stylesheet"
+/>
+
+</head>
+<body>
+  <header>
+     <div class="log">
+        <h3>Yahuza U.</h3>
+     </div>
+
+     <nav id="navg">
+      <a href="#one">Home</a>
+      <a href="" >About</a>
+      <a href="#tree">Skills</a>
+      <a href="#change2">Contact</a>
+      <a href="#change3">Services</a>
+     </nav>
+
+
+     <i class="ri-menu-fill" id="ham" onclick="show()"></i>
+     <i class="ri-close-large-fill" id="can" onclick="hide()"></i>
+  </header>
+   <main id="one">
+     <div class="all" >
+      <div class="one">
+        <h2 id="hero"></h2>
+      </div>
+
+      <div class="two">
+        <img src="MAN3.png" alt="">
+      </div>
+
+      <div class="tree">
+        <h3>About</h3>
+        <p id="about"></p>
+      </div>
+    </div>
+      <div class="btns">
+        <a href="my-documents.PDF" download="my-documents.PDF" style="text-decoration: none; color: #eee;"><button>Download CV  <i class="ri-download-line"></i></button></a>
+         <button>See Activites  <i class="ri-arrow-right-fill"></i></button>
+     
+     </div>
+   </main>
+
+
+   <div class="skills" id="tree">
+    <h2>My Skills</h2>
+     <div class="sk-cnt">
+      <i class="ri-html5-fill"></i>
+      <i class="ri-reactjs-fill"></i>
+      <i class="ri-javascript-line"></i>
+      <i class="ri-bootstrap-line"></i>
+      <i class="ri-vuejs-line"></i>
+     </div>
+   </div>
+
+
+  <div class="contact" id="change2">
+    <h2 class="on">Contact</h2>
+    <div class="all" id="new">
+       <span>
+        <i class="ri-mail-line"></i>
+        <h3>yahuzadejong@gmail.com</h3>
+       </span>
+
+       <span>
+        <i class="ri-phone-line"></i>
+         <h3>+234 8135626974</h3>
+       </span>
+
+       <span>
+        <i class="ri-map-pin-line"></i>
+        <h3>Darazo Bauchi State Nigeria</h3>
+       </span>
+    </div>
+    <div class="sub">
+      <h3>Send me a Message</h3>
+      <form action="https://formsubmit.co/yahuzadejong@gmail.com" method="POST" onsubmit="handleForm()">
+        <input type="text" placeholder="Name" name="name" required>
+        <input type="email" placeholder="Email" name="email" required>
+        <textarea name="text" placeholder="Message" name="text" required>
+
+        </textarea>
+        <button>Send</button>
+      </form>
+    </div>
+  </div>
+   
+
+
+  <div class="services" id="change3">
+    <h2>My Services</h2>
+    <div class="cnt">
+      <div class="content">
+        <div class="top">
+          <h3>Web Design</h3>
+          <img src="web-design.gif" width="30px">
+        </div>
+
+        <details>
+         <summary>Design</summary>
+       <p>I Develop websites that fit your business for Your Development.</p>
+        </details>
+
+        
+          <span>
+            <a href="https://www.facebook.com/yahuza.usman.39904181" style="text-decoration: none;"><i class="ri-arrow-right-down-line" id="alone" onclick="move()"></i></a>
+          </span>
+      
+      </div>
+
+
+      <div class="content">
+       <div class="top">
+         <h3>Responsivity</h3>
+         <img src="responsive.gif" width="30px">
+       </div>
+
+       <details>
+        <summary>All Screen</summary>
+       <p>Turn your website to User friendly and responsive.</p>
+       </details>
+
+      <span>
+       <a href="https://www.facebook.com/yahuza.usman.39904181" style="text-decoration: none;"><i class="ri-arrow-right-down-line" id="alone2" onclick="move2()"></i></a>
+      </span>
+      </div>
+
+
+      <div class="content">
+       <div class="top">
+         <h3>Mobile Design</h3>
+         <img src="mobile-apps.gif" width="30px">
+       </div>
+
+       <details>
+        <summary>Cross platform</summary>
+          <p>Cross platform Mobile app for your business.</p>
+       </details>
+
+      <span>
+      <a href="https://www.facebook.com/yahuza.usman.39904181" style="text-decoration: none;"> <i class="ri-arrow-right-down-line" id="alone3" onclick="move3()"></i></a>
+      </span>
+      </div>
+    </div>
+ </div>
+ <div class="footer" id="change4">
+    <div class="nested">
+      <div class="one">
+        <h2>Quik links</h2>
+        <ul>
+          <li><a href="#one">Home</a></li>
+          <li><a href="" >About</a></li>
+          <li><a href="#tree">Skills</a></li>
+          <li><a href="#change2">Contact</a></li>
+          <li><a href="#change3">Services</a></li>
+        </ul>
+      </div>
+  
+      <div class="two">
+        <h2>Social Links</h2>
+        <ul>
+          <a href="https://www.facebook.com/yahuza.usman.39904181"><li><i class="ri-facebook-circle-line"></i> Facebook</li></a>
+          <a href="https://x.com/YahuzaUsmanDrz?s=09"><li><i class="ri-twitter-x-line"></i> Twitter</li></a>
+          <a href="https://www.instagram.com/yahuza.usman.39904181?ighs=YzljYTklODg3Zg=="><li><i class="ri-instagram-line"></i> Instagram</li></a> 
+          <a href="https://www.linkedin.com/in/yahuza-usman-Obaa68306?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=androi_app"><li><i class="ri-linkedin-box-line"></i> Linkedin</li></a>
+          <a href=""><li><i class="ri-github-fill"></i> Github</li></a>
+        </ul>
+      </div>
+  
+     <div class="tree">   
+      <h2>Subscribe for update</h2>
+      <form>
+        <input type="email" placeholder="Email" id="userInput" required>
+        <button onclick="handleSubmit()">Subscribe</button>
+      </form>
+     </div>    
+  
+    </div>
+   <footer>
+    © 2025 Yahuza Usman. All Rights Reserved
+   </footer>
+ </div>
+
+
+ <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/gsap.min.js"></script>
+ <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.7/dist/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://unpkg.com/lenis@1.1.21/dist/lenis.min.js"></script> 
+    <script src="script.js"></script>
+   
+</body>
+</html>
